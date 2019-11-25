@@ -1,0 +1,8 @@
+title: IO4-IR-Detector-Active-Mount
+project: IO4-IR-Detector-Active-Mount
+designer: John Plocher
+fabricated: yes
+fab_date: 2018-03
+status: released
+release: yes
+tags: [eagle, SPCoast]
