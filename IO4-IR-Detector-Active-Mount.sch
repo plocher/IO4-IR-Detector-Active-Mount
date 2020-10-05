@@ -656,7 +656,6 @@ can help hold any component with 3 or more connection pins.</description>
 <text x="1.524" y="12.7" size="2.54" layer="94" font="vector">File:</text>
 <text x="1.524" y="6.604" size="2.54" layer="94" font="vector">Author:</text>
 <text x="12.7" y="12.7" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="17.78" y="6.35" size="2.54" layer="97">John Plocher</text>
 <wire x1="87.63" y1="17.78" x2="87.63" y2="10.16" width="0.254" layer="94"/>
 <text x="88.9" y="6.604" size="2.54" layer="94" font="vector">R</text>
 </symbol>
@@ -720,9 +719,8 @@ can help hold any component with 3 or more connection pins.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DOC-FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
+<deviceset name="DOC-FRAME-LETTER" prefix="FRAME" uservalue="yes">
+<description>Schematic Frame Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="FRAME" symbol="LETTER_L" x="0" y="0"/>
 <gate name="FRAME_CONTENT" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
@@ -735,7 +733,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PHOTODETECTOR">
+<deviceset name="PHOTODETECTOR" prefix="OPTO" uservalue="yes">
 <gates>
 <gate name="PD1" symbol="PHOTODETECTOR" x="5.08" y="0"/>
 </gates>
@@ -964,7 +962,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="JP1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="JP1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="PD1" library="SPCoast" deviceset="PHOTODETECTOR" device="" value="RPR220"/>
 </parts>
