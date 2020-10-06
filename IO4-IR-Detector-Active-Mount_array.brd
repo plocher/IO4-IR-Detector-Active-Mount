@@ -643,7 +643,7 @@ design rules under a new name.
 <element name="PD1X72" library="SPCoast" package="RPR220" value="RPR220" x="87.63" y="59.055"/>
 <element name="JP1X73" library="SPCoast" package="1X04_LOCK" value="0.100" x="83.82" y="79.375"/>
 <element name="PD1X73" library="SPCoast" package="RPR220" value="RPR220" x="87.63" y="84.455"/>
-<element name="PD1X1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="10x10" x="0" y="0"/>
+<element name="PD1X1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="BOARD" x="0" y="0"/>
 </elements>
 <signals>
 <signal name="N$1X11">
